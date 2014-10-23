@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lecnam</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="feedslist">Feeds List </string>
+    <string name ="feeds">Feeds</string>
+    <string name="compose_sms">Compose SMS</string>
+    <string name="inbox">Inbox</string>
+    <string name="sent_sms">Sent SMS</string>
+    <string name="favorites">Favorites</string>
+    <string name="start_app">Starting application:</string>
+    <string name="center_click">Center has been clicked</string>
+    <string name="Tweet_Activity">Tweet </string>
+    <string name="action_settings">Settings</string>
+    <string name="Calendar_Activity">Calendar </string>
+    <string name="Blood_Donation_Activity">News Feeds </string>
+    <string name="Facebook_Activity">Facebook </string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="github">GitHub</string>
+    <string name="mainactivity">main activity</string>
+    <string name="twitter_consumer_key">CelWdSoywcKmeUSdNVdA</string>
+    <string name="twitter_consumer_secret">tKADaulwvLnC8eX7CutsnNc4TpYkv0zBe9RDQpybFJA</string>
+    <string name="post_image">Post Image</string>
+    <string name="post_tweet">Post Tweet</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="app_id">355198514515820</string>
+    <string name="exception">Exception: %1$s</string>
+    <string name="post_status_update">Post Status Update</string>
+    <string name="inf">ID</string>
+    <string name="adress">Address</string>
+    <string name="phone">Phone #</string>
+    <string name="bday">BirthDay</string>
+    <string name="Sign">Sign Up</string>
+    <string name="Edit">Edit</string>
+    <string name="UpaTel">Telephone</string>
+    <string name="UpaMail">Web Mail</string>
+    <string name="UpaWeb">Web Site</string>
+    <string name="Uni">le cnam</string>
+    <string name="Telnum"> 01 </string>
+    <string name="Upasite">www.isae.edu.lb</string>
+    <string name="UpaEmail"></string>
+    <string name="UpaAdresse">Bir Hassan -Beirut-Liban </string>
+    <string name="UpaAdr">Adresse</string>
+    <string name="title_activity_complete_profile">CompleteProfile</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_university_contact">UniversityContact</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_update_profile">UpdateProfile</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_circulair_view">CirculairViewActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="showMoreFeeds">Show More</string>
+    <string name="choose_your_language">Languages :</string>
+    <string name="choose_your_Faculty">Faculties :</string>
+    <string name="Choose_language">Choose your language :</string>
+    <string name="radio_french">French</string>
+    <string name="radio_english">English</string>
+    <string name="title_activity_about_upa">AboutUpaActivity</string>
+    <string name="radio_branch_one">Bikfaya</string>
+    <string name="radio_branch_two">Tripoli</string>
+    <string name="radio_branch_three">Beirut</string>
+    <string name="Choose_branch">Choose your branch :</string>
+    <string name="radio_faculty_one">Ingenieur en informatique</string>
+    <string name="radio_faculty_two">Gestion des affaires</string>
+    <string name="radio_faculty_three">Ingenieur Civile</string>
+    <string name="radio_faculty_four">Ingenieur Mecaniqe</string>
+    <string name="radio_faculty_five">Ingenieur Electromecanique</string>
+    <string name="no_contacts">No Feeds To Be Shown</string>
+    <string name="radio_fac_one">Departement  Informatique</string>
+    <string name="radio_fac_two">Departement de Gestion des Affaires</string>
+    <string name="radio_fac_three">Departement Mecanique </string>
+    <string name="radio_fac_four">Departement Civile</string>
+    <string name="radio_fac_five">Departement Electromecanique</string>
+    <string name="radio_fac_six">Departement Energetique</string>
+    <string name="radio_fac_seven">Departement Telecomunication</string>
+    <string name="radio_fac_eight">Departement Electromecanique</string>
+    <string name="radio_fac_nine">Departement agriculture</string>
+    <string name="radio_fac_ten">Centre de Langues et de Ressources</string>
+    <string name="radio_fac_eleven">Admission</string>
+    <string name="radio_fac_twelve">Orientation</string>
+    <string name="radio_fac_thirteen">Alumni</string>
+    <string name="ok_btn_dialog">Ok</string>
+    <string name="cancel_btn_dialog">Cancel</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="f">Select branch</string>
+    <string name="b">Select faculty</string>
+
+    <string-array name="branch_array">
+        <item>Baabda</item>
+        <item>Zahle</item>
+        <item>beirut</item>
+    </string-array>
+    <string-array name="faculty_array">
+        <item>Genie</item>
+        <item>Gestion</item>
+        <item>Droit</item>
+        <item>Science</item>
+    </string-array>
+
+
+</resources>

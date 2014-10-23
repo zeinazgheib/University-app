@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/choose_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/choose_your_language"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioLanguages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioFrench"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_french"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radio_english"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/choose_faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/choose_your_Faculty"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/faculty_scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:scrollbars="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/test"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/radioFaculties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp" >
+
+                <RadioButton
+                    android:id="@+id/radioFacultyOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_one"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:checked="true"
+                    android:text="@string/radio_fac_two"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_three"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_four"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_five"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultySix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_six"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultySeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_seven"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyEight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_eight"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyNine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_nine"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyTen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_ten"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyEleven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_eleven"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyTwelve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_twelve"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFacultyThirteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/radio_fac_thirteen"
+                    android:textSize="16sp" />
+            </RadioGroup>
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/seperator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/separator" />
+
+        <LinearLayout
+            android:id="@+id/btnLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/okBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ok_btn_dialog" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel_btn_dialog" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
